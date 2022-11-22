@@ -1,0 +1,27 @@
+SSH untuk github
+
+KONFIGURASI SSH
+cd ~/.ssh <enter> ---> jika membuka git bash here dr folder lain
+
+ssh-keygen -t rsa <enter>
+(disuruh untuk Masukan nama untuk ID ssh) <enter>
+memasukan pasword [bisa di isi , bisa kosong aja]  <enter>
+akan muncul 2/3 file di folder C:\Users\DIMAS TRI BAGUS S\.ssh
+
+MENAMBAHKAN SSH KEY KE GITHUB
+ssh-agent /bin/bash
+ps -e | grep [s]sh-agent
+ssh-add  ~/.ssh/dimas (ssh-add  ~/.ssh/<ID SSH>)
+cat ~/.ssh/dimas.pub (cat ~/.ssh/<ID SSH>.pub)
+COPY HASIL KEY NYA
+
+buka github
+seting
+SSH and GPG KEYS
+NEW SSH KEY
+MASUKAN ID SSH DI TITTLE
+PASTE HASIL KEY NYA
+ADD SSH KEY
+BALIK LAGI KE GIT BASH
+
+ssh -T git@githu.com

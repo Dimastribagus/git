@@ -1,0 +1,37 @@
+						VERSIONING
+
+BUAT REPOSITORY NYA
+
+CARA CONFIG GITHUB
+
+git config --global user.name  ID(email akun)
+
+git config --global user.email ID(email akun)
+
+UPLOAD FILE
+git init
+
+git add *
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote set-url origin (masukan link repository nya)
+
+git push -u origin main
+
+		VERSIONING
+git status
+git brach 
+
+git brach git2
+
+git brach 
+
+git add .
+
+git commit -m "git2 menmbahkan deskripsi"
+
+git push -u origin git2
+

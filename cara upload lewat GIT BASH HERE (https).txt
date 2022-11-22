@@ -1,0 +1,28 @@
+
+
+BUAT REPOSITORY NYA
+
+CARA CONFIG GITHUB
+
+git config --global user.name "Dimasribagus"
+
+git config --global user.email Dimastribagus4@gmail.com
+
+UPLOAD FILE
+git init
+
+touch READ.md
+
+git add *
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add set-url (masukan link repository nya)
+
+git push -u origin main
+
+exit
+
+RELOAD REPOSITORY
